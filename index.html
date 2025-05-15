@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Short Story AI Generator</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>AI Short Story Generator</h1>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter a topic for the short story"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+      <div>i.e: Dragon, Flower, Door</div>
+    </div>
+    <div class="story hidden" id="story"></div>
+    <footer>
+      This project was coded by <a href="">Saadia Ali</a> and is open-sourced on
+      <a href="">GitHub</a> and is hosted on <a href="">Netlify</a>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
