@@ -8,20 +8,33 @@
   </head>
   <body>
     <div class="container">
+      <header>
       <h1>AI Short Story Generator</h1>
+      </header>
+
+      <main>
+        <div class="form-container">
       <form>
         <input
           type="text"
-          placeholder="Enter a topic for the short story"
+          placeholder="Enter a topic for the short story 📖"
           autofocus
           required
           autocomplete="off"
+          class="instructions"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button"/>
       </form>
-      <div>i.e: Dragon, Flower, Door</div>
+      <div class="hint">i.e: Dragon, Flower, Door</div>
+      </div>
     </div>
-    <div class="story hidden" id="story"></div>
+    <div class="book-format">
+      <div class="line"></div>
+      <div class="story hidden" id="story"></div>
+    </div>
+    
+    </main>
+
     <footer>
       This project was coded by
       <a href="https://github.com/Sali459">Saadia Ali</a> and is open-sourced on
